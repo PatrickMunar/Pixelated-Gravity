@@ -190,7 +190,7 @@ const mouse = {
     prevY: 0
 }
 
-window.addEventListener('mousemove', (e) => {
+window.addEventListener('pointermove', (e) => {
     mouse.x = e.clientX/window.innerWidth
     mouse.y = e.clientY/window.innerHeight
     
